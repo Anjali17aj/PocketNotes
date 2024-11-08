@@ -1,0 +1,135 @@
+.mobile__popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 90vw;
+  height: 35vh;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  z-index: 9999;
+}
+
+.mobile__popup__title {
+  text-align: left;
+  height: 5vh;
+  width: 90vw;
+  font-size: 3.2vh;
+  font-weight: 700;
+  margin-left: 5vw;
+}
+
+.mobile__popup__input {
+  height: 8vh;
+  width: 100%;
+  font-size: 4vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+.mobile__popup__input > input {
+    width: 60vw;
+    height: 3vh;
+    border: 2px solid grey;
+    border-radius: 6vh;
+    padding: 0.5rem;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.mobile__popup__color__input{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    align-items: center;
+}
+
+.mobile__popup__color__input > span{
+    font-size: large;
+    font-weight: 600;
+}
+
+.mobile__popup__color__input__color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.mobile__popup__color__input__color__1,
+.mobile__popup__color__input__color__2,
+.mobile__popup__color__input__color__3,
+.mobile__popup__color__input__color__4,
+.mobile__popup__color__input__color__5,
+.mobile__popup__color__input__color__6 {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+.mobile__popup__color__input__color__1{
+    background-color: #B38BFA;
+}
+
+.mobile__popup__color__input__color__2{
+    background-color: #FF79F2;
+}
+
+.mobile__popup__color__input__color__3{
+    background-color: #43E6FC;
+}
+
+.mobile__popup__color__input__color__4{
+    background-color: #F19576;
+}
+
+.mobile__popup__color__input__color__5{
+    background-color: #0047FF;
+}
+
+.mobile__popup__color__input__color__6{
+    background-color: #6691FF;
+}
+
+.mobile__popup__close {
+  height: 5vh;
+  width: 90vw;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+.mobile__popup__close > button {
+  margin-top: 1rem;
+  height: 6vh;
+  width: 25vw;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4vh;
+  background-color: black;
+}
+
+
+
+
+
+
+.highlight{
+    border: 2px solid black;
+    border-radius: 6vh;
+}
